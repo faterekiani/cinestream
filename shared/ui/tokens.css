@@ -1,0 +1,60 @@
+:root {
+  /* Brand */
+  --color-primary: #a855f7;
+  --color-primary-hover: #9333ea;
+
+  /* Background */
+  --color-background: #06060e;
+  --color-surface: #0e0e1c;
+  --color-card: #141428;
+  --color-elevated: #1c1c36;
+
+  /* Text */
+  --color-text-primary: #eeeef8;
+  --color-text-secondary: #8e8aaa;
+  --color-text-muted: #504d6a;
+
+  /* Status */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Border */
+  --color-border: #27273a;
+  --color-border-hover: #3a3a56;
+
+  /* Overlay */
+  --color-overlay: rgb(0 0 0 / 0.6);
+
+  /* White */
+  --color-white: #ffffff;
+
+  --color-focus-ring: rgb(168 85 247 / 0.4);
+
+  /* Black */
+  --color-black: #000000;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Fonts */
+  --font-sans: var(--font-geist);
+  --font-persian: var(--font-vazirmatn);
+
+  /* Motion */
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* Easing */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+}

@@ -1,0 +1,21 @@
+[data-theme="dark"] {
+  --background: var(--color-background);
+  --surface: var(--color-surface);
+  --card: var(--color-card);
+
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+
+  --primary: var(--color-primary);
+}
+
+[data-theme="light"] {
+  --background: #fafafa;
+  --surface: #ffffff;
+  --card: #ffffff;
+
+  --text-primary: #111111;
+  --text-secondary: #666666;
+
+  --primary: var(--color-primary);
+}
